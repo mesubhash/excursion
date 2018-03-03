@@ -1,9 +1,15 @@
-h1 {
-  font-family: Verdana;
+*{
+  font-family: verdana;
+
+}
+
+
+h1, {
+
   font-weight: bold;
   font-size: 50px;
   text-align: center;
-  color: white;
+
 
 }
 
@@ -12,7 +18,28 @@ body{
 
 }
 a {
-  align: center;
+
   color: aquamarine;
     font-size: 16px;
   }
+h2 {
+
+font-weight: 300;
+  font-size : 42px;
+
+}
+.description {
+  font-family: verdana;
+  font-size: 21px;
+  color: gray;
+  text-align: center;
+
+}
+.copyright{
+  color: gray;
+  text-align: right;
+}
+h1, h2{
+  color: white;
+  text-align: center;
+}
